@@ -9,6 +9,17 @@ import { TypewriterText } from "@/components/ui/TypewriterText";
 
 const projects = [
     {
+        title: "AI-Driven Stock Analysis System",
+        slug: "stock-analysis-system",
+        icon: TrendingUp,
+        description: "Developed an end-to-end ML pipeline (feature engineering → model training → live inference) and deployed as a Streamlit web app with interactive visualizations covering 6 major equities (AAPL, MSFT, GOOGL, AMZN, TSLA, NVDA).",
+        tech: ["Python", "Streamlit", "Plotly", "Scikit-learn"],
+        github: "https://github.com/harishlal-me",
+        demo: "https://github.com/harishlal-me",
+        color: "neon-cyan",
+        gradient: "from-cyan-500/20 to-cyan-900/20",
+    },
+    {
         title: "APG-ASR: Gated CNN-Transformer Detector",
         slug: "apg-asr",
         icon: ShieldCheck,

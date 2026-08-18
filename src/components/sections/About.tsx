@@ -36,10 +36,10 @@ export const About = () => {
                             className="space-y-6 text-neutral-400 text-lg leading-relaxed"
                         >
                             <motion.div variants={{ hidden: { opacity: 0, x: -20 }, show: { opacity: 1, x: 0 } }}>
-                                <WordReveal className="text-white font-medium" text="I am a Third-year B.Tech CSE undergraduate (CGPA 9.50/10) with a Minor in AI & Machine Learning at SRM IST, Chennai — with hands-on experience in full-stack development, database systems, and machine learning." />
+                                <WordReveal className="text-white font-medium" text="I am a Second-year B.Tech CSE undergraduate (CGPA 9.51/10) with a Minor in AI & Machine Learning at SRM IST, Chennai — with hands-on experience in full-stack development, database systems, and machine learning." />
                             </motion.div>
                             <motion.div variants={{ hidden: { opacity: 0, x: -20 }, show: { opacity: 1, x: 0 } }}>
-                                <WordReveal className="text-neon-cyan font-medium" text="Particularly strong in NLP — built safety-critical BERT-based systems achieving 94.5% recall with an active manuscript under review at Computers in Human Behavior (Elsevier)." />
+                                <WordReveal className="text-neon-cyan font-medium" text="Particularly strong in NLP — built safety-critical BERT-based systems achieving 94.5% recall and have an active ICWSM 2026 research submission." />
                             </motion.div>
                             <motion.p variants={{ hidden: { opacity: 0, x: -20 }, show: { opacity: 1, x: 0 } }}>
                                 Keen to contribute to engineering and research challenges across software, data, and AI domains.
@@ -92,8 +92,8 @@ export const About = () => {
                                 <div className="w-12 h-12 rounded-full bg-neon-pink/10 flex items-center justify-center mb-4 text-neon-pink group-hover:scale-110 transition-transform">
                                     <FlaskConical className="w-6 h-6" />
                                 </div>
-                                <h3 className="text-white font-semibold mb-2">UROP Research · Elsevier Under Review</h3>
-                                <p className="text-sm text-neutral-500">Active manuscript under review at Computers in Human Behavior (Elsevier) on safety-critical NLP &amp; content moderation under Dr. G. Balamurugan.</p>
+                                <h3 className="text-white font-semibold mb-2">UROP Research · ICWSM 2026 Submission</h3>
+                                <p className="text-sm text-neutral-500">Active manuscript preparation for ICWSM 2026 conference submission on safety-critical NLP &amp; content moderation under Dr. G. Balamurugan.</p>
                             </motion.div>
                         </motion.div>
                     </div>

@@ -61,7 +61,7 @@ export const Hero = () => {
                                 AI / ML Developer &middot; NLP &middot; Full-Stack Engineer
                             </h2>
                             <div className="max-w-[600px] text-lg text-neutral-400 leading-relaxed">
-                                <WordReveal text="Building intelligent AI systems and scalable full-stack products. Third-year Computer Science student at SRM IST (CGPA 9.50) currently preparing an ICWSM 2026 research submission." />
+                                <WordReveal text="Building intelligent AI systems and scalable full-stack products. Second-year Computer Science student at SRM IST (CGPA 9.51) currently preparing an ICWSM 2026 research submission." />
                             </div>
                         </motion.div>
                     </div>
@@ -72,7 +72,7 @@ export const Hero = () => {
                         transition={{ delay: 1, duration: 0.5 }}
                         className="flex flex-col sm:flex-row items-center md:justify-start gap-4 pt-4 pointer-events-auto"
                     >
-                        <a href="/Harishlal_ME_Resume.docx" download="Harishlal_ME_Resume.docx" className="pointer-events-auto w-full sm:w-auto">
+                        <a href="/Harishlal_ME_Resume.pdf" download="Harishlal_ME_Resume.pdf" className="pointer-events-auto w-full sm:w-auto">
                             <MagneticButton>
                                 <Button variant="primary" size="lg" className="w-full sm:w-auto">
                                     <Download className="w-4 h-4 mr-2" />

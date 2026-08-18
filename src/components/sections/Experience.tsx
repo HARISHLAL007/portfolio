@@ -109,7 +109,7 @@ export const Experience = () => {
                                     </div>
                                     <ul className="space-y-2 text-neutral-400 text-sm leading-relaxed list-disc list-inside">
                                         <li>Researching safety-critical NLP systems for content moderation, designing recall-focused evaluation pipelines that penalise false negatives over headline accuracy.</li>
-                                        <li>Fine-tuned and calibrated transformer classifiers and authored the resulting manuscript, currently under review at Computers in Human Behavior (Elsevier).</li>
+                                        <li>Preparing manuscript for ICWSM 2026 conference submission.</li>
                                     </ul>
                                 </div>
                             </motion.div>
@@ -269,7 +269,7 @@ export const Experience = () => {
                                     </div>
                                     <div className="p-3 rounded-lg bg-neutral-900 border border-neutral-800 hover:border-neon-pink/50 transition-colors">
                                         <div className="text-xs text-neutral-500 mb-1">CGPA</div>
-                                        <div className="text-white font-bold text-lg">9.50 / 10</div>
+                                        <div className="text-white font-bold text-lg">9.51 / 10</div>
                                         <div className="text-xs text-neutral-500">(Overall CGPA)</div>
                                     </div>
                                 </div>
@@ -303,7 +303,7 @@ export const Experience = () => {
                                     </div>
                                     <div className="p-3 rounded-lg bg-neutral-900 border border-neutral-800 hover:border-neon-cyan/50 transition-colors">
                                         <div className="text-xs text-neutral-500 mb-1">CGPA</div>
-                                        <div className="text-white font-bold text-lg">9.50 / 10</div>
+                                        <div className="text-white font-bold text-lg">9.0 / 10</div>
                                         <div className="text-xs text-neutral-500">(Specialization)</div>
                                     </div>
                                 </div>
