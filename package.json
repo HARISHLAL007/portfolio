@@ -8,20 +8,9 @@
     "start": "next start",
     "lint": "eslint"
   },
-  "overrides": {
-    "@studio-freight/react-lenis": {
-      "react": "$react",
-      "react-dom": "$react-dom"
-    },
-    "@studio-freight/hamo": {
-      "react": "$react",
-      "react-dom": "$react-dom"
-    }
-  },
   "dependencies": {
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.5.0",
-    "@studio-freight/react-lenis": "^0.0.47",
     "@tsparticles/engine": "^3.9.1",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.9.1",
