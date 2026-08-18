@@ -12,6 +12,10 @@
     "@studio-freight/react-lenis": {
       "react": "$react",
       "react-dom": "$react-dom"
+    },
+    "@studio-freight/hamo": {
+      "react": "$react",
+      "react-dom": "$react-dom"
     }
   },
   "dependencies": {
