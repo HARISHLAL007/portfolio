@@ -67,8 +67,8 @@ export const Experience = () => {
                                         <Calendar className="w-3 h-3" /> Jan 2026 - Apr 2026
                                     </div>
                                     <ul className="space-y-2 text-neutral-400 text-sm leading-relaxed list-disc list-inside">
-                                        <li>Worked on data preprocessing, model development, training, and evaluation of machine learning algorithms for AI-driven solutions.</li>
-                                        <li>Applied Python and ML frameworks to build and evaluate models while strengthening practical problem-solving skills.</li>
+                                        <li>Delivered three industry machine learning engagements end to end, covering data cleaning, exploratory analysis, feature engineering, hyperparameter tuning and model evaluation in Python.</li>
+                                        <li>Scope: Tesla Stock Price Prediction (SimpleRNN & LSTM) · Real Estate Investment Advisor (Streamlit, MLflow) · PhonePe Transaction Insights (SQL analytics and visualisation).</li>
                                     </ul>
                                 </div>
                             </motion.div>
@@ -108,8 +108,8 @@ export const Experience = () => {
                                         <Calendar className="w-3 h-3" /> Nov 2025 - Jan 2026
                                     </div>
                                     <ul className="space-y-2 text-neutral-400 text-sm leading-relaxed list-disc list-inside">
-                                        <li>Researching safety-critical NLP systems and designing recall-focused evaluation pipelines for content moderation.</li>
-                                        <li>Preparing manuscript for ICWSM 2026 conference submission.</li>
+                                        <li>Researching safety-critical NLP systems for content moderation, designing recall-focused evaluation pipelines that penalise false negatives over headline accuracy.</li>
+                                        <li>Fine-tuned and calibrated transformer classifiers and authored the resulting manuscript, currently under review at Computers in Human Behavior (Elsevier).</li>
                                     </ul>
                                 </div>
                             </motion.div>
@@ -150,6 +150,86 @@ export const Experience = () => {
                                     </div>
                                     <ul className="space-y-2 text-neutral-400 text-sm leading-relaxed list-disc list-inside">
                                         <li>Completed 10-week intensive program in ML model development, evaluation, and deployment best practices.</li>
+                                    </ul>
+                                </div>
+                            </motion.div>
+                        </motion.div>
+
+                        {/* Experience 3: AI/ML Technical Member */}
+                        <motion.div variants={{ hidden: { opacity: 0, y: 50 }, show: { opacity: 1, y: 0, transition: { duration: 0.6 } } }} className="relative pl-8 md:pl-0">
+                            <div className="md:hidden absolute left-0 top-0 bottom-0 w-px bg-neutral-800"></div>
+
+                            <motion.div
+                                whileHover={{ x: 5 }}
+                                className="relative md:grid md:grid-cols-5 gap-8 items-start group"
+                            >
+                                <div className="hidden md:flex flex-col items-end col-span-1 pt-1 text-sm text-neutral-500 font-mono">
+                                    <span>2025</span>
+                                    <span>Present</span>
+                                </div>
+
+                                {/* Timeline node */}
+                                <div className="absolute left-[-37px] md:static md:col-span-1 flex justify-center mt-1">
+                                    <div className="w-[10px] h-[10px] rounded-full bg-neon-cyan shadow-[0_0_10px_#00f0ff] ring-4 ring-neutral-950 group-hover:scale-150 transition-transform z-10" />
+                                    {/* Vertical Line for Desktop */}
+                                    <motion.div
+                                        initial={{ scaleY: 0 }}
+                                        whileInView={{ scaleY: 1 }}
+                                        transition={{ duration: 1, ease: "easeInOut" }}
+                                        className="hidden md:block absolute top-6 bottom-[-3rem] w-px bg-neutral-800 -z-10 left-[26%] origin-top"
+                                    />
+                                </div>
+
+                                <div className="md:col-span-3 pb-8">
+                                    <h3 className="text-xl font-bold text-white mb-1">AI/ML Technical Member</h3>
+                                    <div className="text-neon-cyan font-medium mb-3 flex items-center gap-2">
+                                        <Briefcase className="w-4 h-4" /> SRM Insider
+                                    </div>
+                                    <div className="flex items-center gap-2 mb-4 text-xs text-neutral-500 md:hidden font-mono">
+                                        <Calendar className="w-3 h-3" /> 2025 - Present
+                                    </div>
+                                    <ul className="space-y-2 text-neutral-400 text-sm leading-relaxed list-disc list-inside">
+                                        <li>Delivered 3+ AI/ML projects across more than a year with the club's technical wing, contributing to build sprints and community technical events.</li>
+                                        <li>Ranked 3rd overall among 30+ members and awarded Best Project for The Last CEO.</li>
+                                    </ul>
+                                </div>
+                            </motion.div>
+                        </motion.div>
+
+                        {/* Experience 4: Community Outreach Volunteer */}
+                        <motion.div variants={{ hidden: { opacity: 0, y: 50 }, show: { opacity: 1, y: 0, transition: { duration: 0.6 } } }} className="relative pl-8 md:pl-0">
+                            <div className="md:hidden absolute left-0 top-0 bottom-0 w-px bg-neutral-800"></div>
+
+                            <motion.div
+                                whileHover={{ x: 5 }}
+                                className="relative md:grid md:grid-cols-5 gap-8 items-start group"
+                            >
+                                <div className="hidden md:flex flex-col items-end col-span-1 pt-1 text-sm text-neutral-500 font-mono">
+                                    <span>Jun 2026</span>
+                                </div>
+
+                                {/* Timeline node */}
+                                <div className="absolute left-[-37px] md:static md:col-span-1 flex justify-center mt-1">
+                                    <div className="w-[10px] h-[10px] rounded-full bg-neon-purple shadow-[0_0_10px_#b026ff] ring-4 ring-neutral-950 group-hover:scale-150 transition-transform z-10" />
+                                    {/* Vertical Line for Desktop */}
+                                    <motion.div
+                                        initial={{ scaleY: 0 }}
+                                        whileInView={{ scaleY: 1 }}
+                                        transition={{ duration: 1, ease: "easeInOut" }}
+                                        className="hidden md:block absolute top-6 bottom-[-3rem] w-px bg-neutral-800 -z-10 left-[26%] origin-top"
+                                    />
+                                </div>
+
+                                <div className="md:col-span-3 pb-8">
+                                    <h3 className="text-xl font-bold text-white mb-1">Community Outreach Volunteer</h3>
+                                    <div className="text-neon-purple font-medium mb-3 flex items-center gap-2">
+                                        <Briefcase className="w-4 h-4" /> Community Connect, SRM IST
+                                    </div>
+                                    <div className="flex items-center gap-2 mb-4 text-xs text-neutral-500 md:hidden font-mono">
+                                        <Calendar className="w-3 h-3" /> Jun 2026
+                                    </div>
+                                    <ul className="space-y-2 text-neutral-400 text-sm leading-relaxed list-disc list-inside">
+                                        <li>Delivered 21 hours of community service at a higher secondary school in Madurai, conducting AI and technology awareness sessions for Classes X–XII on the responsible use of AI for learning and career growth.</li>
                                     </ul>
                                 </div>
                             </motion.div>

@@ -2,12 +2,13 @@
 
 import { motion } from "framer-motion";
 import {
-    SiCplusplus, SiPython, SiJavascript,
+    SiCplusplus, SiPython, SiJavascript, SiC,
     SiReact, SiNodedotjs, SiExpress, SiFastapi,
-    SiOpencv, SiTensorflow, SiPytorch,
-    SiGit, SiDocker, SiLinux, SiStreamlit
+    SiOpencv, SiTensorflow, SiPytorch, SiHuggingface,
+    SiGit, SiDocker, SiLinux, SiStreamlit, SiMlflow, SiRender
 } from "react-icons/si";
-import { BrainCircuit } from "lucide-react";
+import { FaJava } from "react-icons/fa";
+import { BrainCircuit, Activity, Shield } from "lucide-react";
 import { TypewriterText } from "@/components/ui/TypewriterText";
 
 const skillsData = [
@@ -18,6 +19,8 @@ const skillsData = [
         items: [
             { name: "C++", icon: SiCplusplus },
             { name: "Python", icon: SiPython },
+            { name: "Java", icon: FaJava },
+            { name: "C", icon: SiC },
             { name: "JavaScript", icon: SiJavascript },
         ]
     },
@@ -39,7 +42,11 @@ const skillsData = [
         items: [
             { name: "TensorFlow", icon: SiTensorflow },
             { name: "PyTorch", icon: SiPytorch },
+            { name: "Hugging Face", icon: SiHuggingface },
             { name: "XGBoost", icon: BrainCircuit },
+            { name: "BERT", icon: BrainCircuit },
+            { name: "YOLOv8", icon: Activity },
+            { name: "SHAP", icon: Shield },
             { name: "Streamlit", icon: SiStreamlit },
         ]
     },
@@ -51,6 +58,8 @@ const skillsData = [
             { name: "Git", icon: SiGit },
             { name: "Docker", icon: SiDocker },
             { name: "Linux", icon: SiLinux },
+            { name: "MLflow", icon: SiMlflow },
+            { name: "Render", icon: SiRender },
         ]
     }
 ];

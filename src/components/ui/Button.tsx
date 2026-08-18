@@ -9,6 +9,8 @@ interface ButtonProps extends HTMLMotionProps<"button"> {
     size?: "sm" | "md" | "lg";
 }
 
+import { Magnetic } from "./Magnetic";
+
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     ({ className, variant = "primary", size = "md", children, ...props }, ref) => {
         const baseStyles =
@@ -31,18 +33,20 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         };
 
         return (
-            <motion.button
-                ref={ref}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className={cn(baseStyles, variants[variant], sizes[size], className)}
-                {...props}
-            >
-                <span className="relative z-10 flex items-center gap-2">{children as React.ReactNode}</span>
-                {variant === "primary" && (
-                    <div className="absolute inset-0 z-0 bg-gradient-to-r from-neon-cyan to-neon-purple opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
-                )}
-            </motion.button>
+            <Magnetic>
+                <motion.button
+                    ref={ref}
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className={cn(baseStyles, variants[variant], sizes[size], className)}
+                    {...props}
+                >
+                    <span className="relative z-10 flex items-center gap-2">{children as React.ReactNode}</span>
+                    {variant === "primary" && (
+                        <div className="absolute inset-0 z-0 bg-gradient-to-r from-neon-cyan to-neon-purple opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
+                    )}
+                </motion.button>
+            </Magnetic>
         );
     }
 );

@@ -11,11 +11,13 @@
   "dependencies": {
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.5.0",
+    "@studio-freight/react-lenis": "^0.0.47",
     "@tsparticles/engine": "^3.9.1",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.9.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.35.0",
+    "lenis": "^1.3.23",
     "lucide-react": "^0.577.0",
     "next": "16.1.6",
     "react": "19.2.3",

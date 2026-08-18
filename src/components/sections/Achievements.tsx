@@ -6,11 +6,47 @@ import { TypewriterText } from "@/components/ui/TypewriterText";
 
 const achievements = [
     {
-        title: "ICWSM 2026 Research Submission",
+        title: "1st Place | Hackathon, Symposium on Responsible AI",
+        category: "Hackathon",
+        icon: Trophy,
+        date: "Mar 2026",
+        description: "Won first place among competing teams at the hackathon conducted by the Department of Computing Technologies in association with the SRM ACM Student Chapter, for SpeakSense AI built inside the 24-hour window.",
+        color: "text-neon-pink",
+        bg: "bg-neon-pink/10"
+    },
+    {
+        title: "Best Project & Rank 3 | Overall Individual Rankings",
+        category: "SRM Insider",
+        icon: Star,
+        date: "Jun 2026",
+        description: "Selected as the club's best project for 'The Last CEO'; placed in the top 3 of 30+ members in the overall individual rankings.",
+        color: "text-neon-cyan",
+        bg: "bg-neon-cyan/10"
+    },
+    {
+        title: "Elite + Topper (Top 1%) | NPTEL, IIT Roorkee",
+        category: "Certification",
+        icon: Award,
+        date: "Apr 2025",
+        description: "Scored 94% in Fundamentals of Object Oriented Programming among 5,246 certified candidates nationally.",
+        color: "text-neon-purple",
+        bg: "bg-neon-purple/10"
+    },
+    {
+        title: "1st Prize | Reuse and Remodel Product",
+        category: "Hackathon",
+        icon: Trophy,
+        date: "Nov 2024",
+        description: "Won first prize in the event organised by the Department of Mechanical Engineering; active participant across multiple inter- and intra-college hackathons and ideathons.",
+        color: "text-neon-pink",
+        bg: "bg-neon-pink/10"
+    },
+    {
+        title: "Under Review: Computers in Human Behavior (Elsevier)",
         category: "Research",
         icon: BookOpen,
         date: "Current Focus",
-        description: "Preparing an academic research paper based on my Cyberbullying Detection System. Focused on high-recall BERT fine-tuning for safety-critical NLP moderation tasks.",
+        description: "Authored a manuscript on recall-oriented evaluation of transformer classifiers for content moderation, arguing for false-negative suppression as the primary objective in safety-critical detection. Conducted under the UROP programme at SRM IST.",
         color: "text-neon-cyan",
         bg: "bg-neon-cyan/10"
     }

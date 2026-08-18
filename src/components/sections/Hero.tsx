@@ -9,6 +9,7 @@ import { ParticleBackground } from "@/components/ui/ParticleBackground";
 import { Scene3D } from "@/components/ui/Scene3D";
 
 import { MagneticButton } from "@/components/ui/MagneticButton";
+import { WordReveal } from "@/components/ui/WordReveal";
 
 export const Hero = () => {
     const [mounted, setMounted] = useState(false);
@@ -59,10 +60,9 @@ export const Hero = () => {
                             <h2 className="text-xl md:text-2xl text-neon-cyan font-medium mb-4">
                                 AI / ML Developer &middot; NLP &middot; Full-Stack Engineer
                             </h2>
-                            <p className="max-w-[600px] text-lg text-neutral-400 leading-relaxed">
-                                Building intelligent AI systems and scalable full-stack products.<br className="hidden md:block" />
-                                Third-year Computer Science student at SRM IST (CGPA 9.50) currently preparing an ICWSM 2026 research submission.
-                            </p>
+                            <div className="max-w-[600px] text-lg text-neutral-400 leading-relaxed">
+                                <WordReveal text="Building intelligent AI systems and scalable full-stack products. Third-year Computer Science student at SRM IST (CGPA 9.50) currently preparing an ICWSM 2026 research submission." />
+                            </div>
                         </motion.div>
                     </div>
 

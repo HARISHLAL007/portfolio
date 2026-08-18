@@ -20,6 +20,10 @@ export const metadata: Metadata = {
 };
 
 import { AnimatedCursor } from "@/components/ui/AnimatedCursor";
+import { SmoothScroll } from "@/components/ui/SmoothScroll";
+import { BootScreen } from "@/components/ui/BootScreen";
+import { ParallaxBackground } from "@/components/ui/ParallaxBackground";
+import { AIAssistant } from "@/components/ui/AIAssistant";
 
 export default function RootLayout({
   children,
@@ -32,10 +36,15 @@ export default function RootLayout({
         className={`${outfit.variable} ${geistMono.variable} antialiased bg-background text-foreground selection:bg-neon-cyan selection:text-black`}
         suppressHydrationWarning
       >
-        <AnimatedCursor />
-        <Navbar />
-        {children}
-        <Footer />
+        <SmoothScroll>
+          <BootScreen />
+          <AnimatedCursor />
+          <ParallaxBackground />
+          <Navbar />
+          {children}
+          <Footer />
+          <AIAssistant />
+        </SmoothScroll>
       </body>
     </html>
   );
